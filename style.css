@@ -14,18 +14,27 @@ body {
 
 .inner {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 250px 250px 200px;
+	grid-template-columns: 1fr ;
+	grid-template-rows: auto;
 }
 
-.img {
-	width: 100px;
-	height: 100px;
-}
+
 
 .item {
 	text-align: center;
 }
+
+.headRow{
+    background: var(--tg-theme-hint-color);
+}
+.edit{
+	display: inline-block;
+	text-align: right;
+}
+
+
+
+
 
 .btn {
 	display: none;
@@ -112,6 +121,10 @@ body {
 	width: 100%;
 	height: 100%;
 }
+
+
+
+
 
 
 
