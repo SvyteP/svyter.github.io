@@ -7,6 +7,12 @@ body {
 }
 
 
+::placeholder{
+	color:  #626262;
+	text-align: center;
+
+}
+
 .container {
 	max-width: 100%;
 	max-height: 100%;
@@ -19,11 +25,11 @@ body {
 	grid-template-rows: auto;
 }
 .inner_2 {
-	background:#78788e ;
+	background:  #e21a1a ;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	display: grid;
-	grid-template-columns: 1fr 10fr 1fr ;
+	grid-template-columns: 1fr 7fr 1fr ;
 	grid-template-rows: auto;
 }
 
@@ -33,7 +39,7 @@ body {
 }
 
 .headRow{
-	background:#78788e ;
+	background:#e21a1a ;
 	
 	
 }
@@ -56,23 +62,30 @@ body {
 	margin-bottom: 15px;
 	
 	
-}
+} 
 
 .Comment{
 	
 	 display:flex; 
 	 justify-content: center;
+
 	
 }
-.comment1{
+.commentWindow{
+
+	color: #626262;
+	background-color: #e21a1a ;
+	width: 100%;
+	resize: none;
+	border: none;
+	outline: none;
 	
-	clear: both;
 
 }
 .CommentText{
 	text-align: center;
 	margin: 5px;
-	color: #6b5353;
+	color: #000000;
 }
 
 .imgProd{
