@@ -28,7 +28,7 @@ body {
 }
 
 .btn {
-	display: inline-block;
+	display: none;
 	padding: 10px 20px;
 	border: none;
 	background: rgb(248, 168, 24);
@@ -36,6 +36,7 @@ body {
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
+	
 
 	transition: background .3s linear;
 }
@@ -60,6 +61,64 @@ body {
 	color: #ffffff;
 
 }
+
+.schet{
+	display: inline-block;
+	margin-bottom: 1000px;
+	vertical-align:super;
+	color: #ffffff;
+}
+
+.btnPlus{
+	display: inline-block;
+	height: 30px;
+	border: none;
+	width: 30px;
+	background: rgb(248, 168, 24);
+	border-radius: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+
+	transition: background .3s linear;
+}
+
+.btnPlus:hover{
+	background: rgb(255, 89, 0);
+}
+
+.btnMinus{
+	display: inline-block;
+	height: 30px;
+	border: none;
+	width: 30px;
+	background: rgb(248, 168, 24);
+	border-radius: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+
+	transition: background .3s linear;
+}
+
+.btnMinus:hover{
+	background: rgb(255, 89, 0);
+}
+
+
+.plusMinusImg{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
 
 
 
