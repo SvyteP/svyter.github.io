@@ -3,8 +3,9 @@ body {
 	padding: 0;
 	font-size: 18px;
 	color:  var(--tg-theme-text-color);
-	background: var(--tg-theme-bg-color);
+	background:var(--tg-theme-bg-color);
 }
+
 
 .container {
 	max-width: 100%;
@@ -17,7 +18,14 @@ body {
 	grid-template-columns: 1fr ;
 	grid-template-rows: auto;
 }
-
+.inner_2 {
+	background:#78788e ;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: grid;
+	grid-template-columns: 1fr 10fr 1fr ;
+	grid-template-rows: auto;
+}
 
 
 .item {
@@ -25,137 +33,73 @@ body {
 }
 
 .headRow{
-	background-color: var(--tg-theme-text-color);
+	background:#78788e ;
+	
+	
 }
 .edit{
-	display: inline-block;
-	text-align: right;
-}
-
-
-
-
-
-.btn {
-	display: none;
-	padding: 10px 20px;
-	border: none;
-	background: rgb(248, 168, 24);
-	border-radius: 10px;
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 700;
+	margin-top: 20px;
+	margin-right: 10px;
+	float: right;
 	
+}
+.order{	
+	margin-top: 20px;
+	margin-left: 10px;
+	float: left;
 
-	transition: background .3s linear;
 }
 
-.btn:hover {
-	background: rgb(255, 89, 0);
+.mainList{
+	width: 100%;
+	height: 50px;
+	margin-bottom: 15px;
+	
+	
 }
 
-.usercard {
+.Comment{
+	
+	 display:flex; 
+	 justify-content: center;
+	
+}
+.comment1{
+	
+	clear: both;
+
+}
+.CommentText{
 	text-align: center;
-}
-.category{
-	text-align: center;
-	font-weight:bold;
-	color: #ffffff;
+	margin: 5px;
+	color: #6b5353;
 }
 
-.product{
-
-	margin: 0px 0px 10px 0px;
-	border: none;
-	color: #ffffff;
-
+.imgProd{
+	border: rgb(255, 47, 47);
+	border-style: dotted;
+	height: 50px;
 }
 
-.schet{
-	display: inline-block;
-	margin-bottom: 1000px;
-	vertical-align:super;
-	color: #ffffff;
-}
-
-.btnPlus{
-	display: inline-block;
-	height: 30px;
-	border: none;
-	width: 30px;
-	background: rgb(248, 168, 24);
-	border-radius: 10px;
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 700;
-	text-align: center;
-
-	transition: background .3s linear;
-}
-
-.btnPlus:hover{
-	background: rgb(255, 89, 0);
-}
-
-.btnMinus{
-	display: inline-block;
-	height: 30px;
-	border: none;
-	width: 30px;
-	background: rgb(248, 168, 24);
-	border-radius: 10px;
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 700;
-	text-align: center;
-
-	transition: background .3s linear;
-}
-
-.btnMinus:hover{
-	background: rgb(255, 89, 0);
-}
-
-
-.plusMinusImg{
+.img{
 	width: 100%;
 	height: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.infoProd{
+	text-align: center;
+	vertical-align: middle;
+	border: rgb(0, 172, 9);
+	border-style: dotted;
+	height: 50px;
+}
+.costProd{
+	text-align: center;
+	vertical-align: middle;
+	border: rgb(0, 172, 9);
+	border-style: dotted;
+	height: 50px;
+}
 
 
 
