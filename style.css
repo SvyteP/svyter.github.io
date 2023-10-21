@@ -1,9 +1,20 @@
+
+@font-face {
+	font-family: Kosugi;
+	src: url(SF-Pro-Display-Medium.otf);
+  }
+
 body {
 	margin: 0;
 	padding: 0;
-	font-size: 18px;
-	color:   var(--tg-theme-text-color);
-	background-color: #fff;
+	font-size: 16px;
+	color:  var(--tg-theme-text-color);
+	background-image:url(1873985.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+	font-family: Kosugi;
+	
+	
 }
 
 
@@ -25,12 +36,15 @@ body {
 	grid-template-rows: auto;
 }
 .inner_2 {
-	background:  #e21a1a ;
+	background:  #ffffff ;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	display: grid;
 	grid-template-columns: 1fr 3fr 1fr ;
 	grid-template-rows: auto;
+	border-color:rgb(224, 37, 34)  ;
+	border-width:3px;
+	border-style:outset;
 }
 
 
@@ -39,20 +53,29 @@ body {
 }
 
 .headRow{
-	background:#e21a1a ;
+	background:rgb(224, 37, 34) ;
+	background-image:url(logo-rgd.png);
+
+	background-repeat: no-repeat;
+    background-size:contain;
+	background-position: center;
+	
 	
 	
 }
 .edit{
 	margin-top: 20px;
-	margin-right: 10px;
+	margin-right: 50px;
 	float: right;
+	color: #fff;
+	text-decoration: none;
 	
 }
 .order{	
 	margin-top: 20px;
-	margin-left: 10px;
+	margin-left: 50px;
 	float: left;
+	color: #fff;
 
 }
 
@@ -68,13 +91,15 @@ body {
 	
 	 display:flex; 
 	 justify-content: center;
-
+	border-color:rgb(224, 37, 34)  ;
+	border-width:3px;
+	border-style:outset;
 	
 }
 .commentWindow{
 
-	color: #626262;
-	background-color: #e21a1a ;
+	color: #000000;
+	background-color: #f9f9f9 ;
 	width: 100%;
 	resize: none;
 	border: none;
@@ -85,12 +110,13 @@ body {
 .CommentText{
 	text-align: center;
 	margin: 5px;
-	color: #000000;
+	font-size: 13px;
+	color: #ffffff;
 }
 
 .imgProd{
-	border: rgb(255, 47, 47);
-	border-style: dotted;
+	border-right: 1px solid rgba(128, 128, 128, 0.3);
+	padding-right: 5px;
 	height: 50px;
 }
 
@@ -102,15 +128,14 @@ body {
 .infoProd{
 	text-align: center;
 	vertical-align: middle;
-	border: rgb(0, 172, 9);
-	border-style: dotted;
+	border-right: 1px solid rgba(128, 128, 128, 0.3);
+
 	height: 50px;
 }
 .costProd{
 	text-align: center;
 	vertical-align: middle;
-	border: rgb(0, 172, 9);
-	border-style: dotted;
+
 	height: 50px;
 }
 
