@@ -3,11 +3,17 @@
 	font-family: Kosugi;
 	src: url(SF-Pro-Display-Medium.otf);
   }
-html{
+
+html
+{
+	height: 100%;
 	background-image:url(phon.jpg);
 	background-repeat: no-repeat;
     background-size:cover;
+	background-position: center;
+	
   }
+  
 body {
 	margin: 0;
 	padding: 0;
